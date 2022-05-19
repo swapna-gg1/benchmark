@@ -1,0 +1,14 @@
+configName: sama5d2_xplained
+folderName: Dhrystone_sama5d2Xplained
+format_version: v1.0
+frameworkPath: ..\..\Harmony3
+processor: ATSAMA5D27
+projectName: Dhrystone_sama5d2Xplained
+settings:
+  PackageFilter: azure_rtos;bsp;core;core_apps_sam_9x60;crypto;csp;csp_apps_sam_9x60;Devices;dev_packs;gfx;gfx_apps_sam_9x60;harmony-services;net;quick_docs;touch;usb
+  FORCE_OPTIMIZATION: 'false'
+  GENERATE_BACKUP: 'true'
+  TRUSTZONE: 'false'
+  CMSISPath: .\dev_packs\arm\CMSIS\5.8.0
+  MERGE_STRATEGY: USER_ALL
+  DFPPath: .\dev_packs\Microchip\SAMA5D2_DFP\1.6.69\atdf\ATSAMA5D27.atdf
